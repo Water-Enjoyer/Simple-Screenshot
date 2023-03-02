@@ -30,7 +30,6 @@ def mouse_crop(event, x, y, flags, window_id):
 
     # draws rectangle
     elif event == cv.EVENT_MOUSEMOVE and drawing:
-        print(x, y)
         start_x = coords[0][0]
         start_y = coords[0][1]
         left_image_copy = left_image.copy()
@@ -90,7 +89,7 @@ while True:
         cv.rectangle(right_image_copy, (-w, 0), (w//2, h), (0, 0, 255), 5)
 
         while True:
-            print(coords)
+            
             # displays images
             cv.imshow("image", left_image_copy)
             cv.imshow("image2", right_image_copy)
