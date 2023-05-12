@@ -14,3 +14,5 @@ Just install the requirements and run `main.pyw`
 Your milage may vary, it should work if your set up is similar to mine (dual monitors, same size).
 
 Made for fun and because gyazo has been very slow. Tested on Windows only.
+
+Repo recreated 5/12/2023 to fix git issues
